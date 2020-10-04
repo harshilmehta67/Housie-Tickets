@@ -95,6 +95,10 @@ void generateTicket() {
 	printTicket(ticket);
 	clearPrev();
 }
+int createUser(){
+	int userno = srand(time(0));
+	return userno;
+}
 int main() {
 	// no. of tickets you want
 	srand(time(0));
